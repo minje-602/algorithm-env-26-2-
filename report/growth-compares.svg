@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420" viewBox="0 0 780 420" font-family="Helvetica,Arial,sans-serif">
+<rect width="780" height="420" fill="#fcfcfb"/>
+<text x="74" y="30" font-size="16" font-weight="600" fill="#0b0b0b">Comparisons as n grows</text>
+<text x="74" y="50" font-size="11.5" fill="#52514e">random input - linear axis</text>
+<rect x="74.0" y="60" width="10" height="10" rx="2" fill="#2a78d6"/>
+<text x="89.0" y="69" font-size="11" fill="#52514e">quickSort</text>
+<rect x="155.6" y="60" width="10" height="10" rx="2" fill="#eb6834"/>
+<text x="170.6" y="69" font-size="11" fill="#52514e">mergeSort</text>
+<rect x="237.2" y="60" width="10" height="10" rx="2" fill="#1baf7a"/>
+<text x="252.2" y="69" font-size="11" fill="#52514e">heapSort</text>
+<line x1="74" y1="356.0" x2="684.0" y2="356.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="359.5" font-size="10" fill="#52514e" text-anchor="end">0</text>
+<line x1="74" y1="300.8" x2="684.0" y2="300.8" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="304.3" font-size="10" fill="#52514e" text-anchor="end">200K</text>
+<line x1="74" y1="245.6" x2="684.0" y2="245.6" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="249.1" font-size="10" fill="#52514e" text-anchor="end">400K</text>
+<line x1="74" y1="190.4" x2="684.0" y2="190.4" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="193.9" font-size="10" fill="#52514e" text-anchor="end">600K</text>
+<line x1="74" y1="135.2" x2="684.0" y2="135.2" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="138.7" font-size="10" fill="#52514e" text-anchor="end">800K</text>
+<line x1="74" y1="80.0" x2="684.0" y2="80.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="83.5" font-size="10" fill="#52514e" text-anchor="end">1.000M</text>
+<text x="8" y="68" font-size="10" fill="#52514e">comparisons</text>
+<line x1="74" y1="356" x2="684.0" y2="356" stroke="#52514e" stroke-width="1"/>
+<text x="74.0" y="376" font-size="10.5" fill="#0b0b0b" text-anchor="middle">1,000</text>
+<text x="196.0" y="376" font-size="10.5" fill="#0b0b0b" text-anchor="middle">2,000</text>
+<text x="318.0" y="376" font-size="10.5" fill="#0b0b0b" text-anchor="middle">4,000</text>
+<text x="440.0" y="376" font-size="10.5" fill="#0b0b0b" text-anchor="middle">8,000</text>
+<text x="562.0" y="376" font-size="10.5" fill="#0b0b0b" text-anchor="middle">16,000</text>
+<text x="684.0" y="376" font-size="10.5" fill="#0b0b0b" text-anchor="middle">32,000</text>
+<text x="379.0" y="398" font-size="11" fill="#52514e" text-anchor="middle">input size n (doubling)</text>
+<path d="M74.0,353.1 L196.0,349.6 L318.0,341.7 L440.0,324.6 L562.0,285.9 L684.0,207.1" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="74.0" cy="353.1" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="196.0" cy="349.6" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="318.0" cy="341.7" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="440.0" cy="324.6" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="562.0" cy="285.9" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="684.0" cy="207.1" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="693.0" y="211.1" font-size="10.5" fill="#52514e">quickSort</text>
+<path d="M74.0,353.6 L196.0,350.6 L318.0,344.2 L440.0,330.1 L562.0,299.8 L684.0,234.9" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="74.0" cy="353.6" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="196.0" cy="350.6" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="318.0" cy="344.2" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="440.0" cy="330.1" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="562.0" cy="299.8" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="684.0" cy="234.9" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="693.0" y="238.9" font-size="10.5" fill="#52514e">mergeSort</text>
+<path d="M74.0,351.3 L196.0,345.6 L318.0,333.0 L440.0,305.6 L562.0,246.3 L684.0,118.8" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="74.0" cy="351.3" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="196.0" cy="345.6" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="318.0" cy="333.0" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="440.0" cy="305.6" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="562.0" cy="246.3" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="684.0" cy="118.8" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="693.0" y="122.8" font-size="10.5" fill="#52514e">heapSort</text>
+</svg>

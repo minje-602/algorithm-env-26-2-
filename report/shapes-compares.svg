@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420" viewBox="0 0 780 420" font-family="Helvetica,Arial,sans-serif">
+<rect width="780" height="420" fill="#fcfcfb"/>
+<text x="74" y="30" font-size="16" font-weight="600" fill="#0b0b0b">Input shape vs comparisons</text>
+<text x="74" y="50" font-size="11.5" fill="#52514e">n = 8,000, best of repeated runs - linear axis</text>
+<rect x="74.0" y="60" width="10" height="10" rx="2" fill="#2a78d6"/>
+<text x="89.0" y="69" font-size="11" fill="#52514e">quickSort</text>
+<rect x="155.6" y="60" width="10" height="10" rx="2" fill="#eb6834"/>
+<text x="170.6" y="69" font-size="11" fill="#52514e">mergeSort</text>
+<rect x="237.2" y="60" width="10" height="10" rx="2" fill="#1baf7a"/>
+<text x="252.2" y="69" font-size="11" fill="#52514e">heapSort</text>
+<line x1="74" y1="356.0" x2="754" y2="356.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="359.5" font-size="10" fill="#52514e" text-anchor="end">0</text>
+<line x1="74" y1="300.8" x2="754" y2="300.8" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="304.3" font-size="10" fill="#52514e" text-anchor="end">1.000M</text>
+<line x1="74" y1="245.6" x2="754" y2="245.6" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="249.1" font-size="10" fill="#52514e" text-anchor="end">2.000M</text>
+<line x1="74" y1="190.4" x2="754" y2="190.4" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="193.9" font-size="10" fill="#52514e" text-anchor="end">3.000M</text>
+<line x1="74" y1="135.2" x2="754" y2="135.2" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="138.7" font-size="10" fill="#52514e" text-anchor="end">4.000M</text>
+<line x1="74" y1="80.0" x2="754" y2="80.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="83.5" font-size="10" fill="#52514e" text-anchor="end">5.000M</text>
+<text x="12" y="68" font-size="10" fill="#52514e">comparisons</text>
+<line x1="74" y1="356" x2="754" y2="356" stroke="#52514e" stroke-width="1"/>
+<path d="M91.0,356.0 L91.0,353.7 Q91.0,349.7 95.0,349.7 L131.0,349.7 Q135.0,349.7 135.0,353.7 L135.0,356.0 Z" fill="#2a78d6"/>
+<text x="113.0" y="344.7" font-size="9.5" fill="#52514e" text-anchor="middle">114K</text>
+<path d="M137.0,356.0 L137.0,354.8 Q137.0,350.8 141.0,350.8 L177.0,350.8 Q181.0,350.8 181.0,354.8 L181.0,356.0 Z" fill="#eb6834"/>
+<text x="159.0" y="345.8" font-size="9.5" fill="#52514e" text-anchor="middle">94K</text>
+<path d="M183.0,356.0 L183.0,349.9 Q183.0,345.9 187.0,345.9 L223.0,345.9 Q227.0,345.9 227.0,349.9 L227.0,356.0 Z" fill="#1baf7a"/>
+<text x="205.0" y="340.9" font-size="9.5" fill="#52514e" text-anchor="middle">183K</text>
+<text x="159.0" y="376" font-size="11.5" fill="#0b0b0b" text-anchor="middle">random</text>
+<path d="M261.0,356.0 L261.0,354.7 Q261.0,350.7 265.0,350.7 L301.0,350.7 Q305.0,350.7 305.0,354.7 L305.0,356.0 Z" fill="#2a78d6"/>
+<text x="283.0" y="345.7" font-size="9.5" fill="#52514e" text-anchor="middle">96K</text>
+<path d="M307.0,356.0 L307.0,356.0 Q307.0,353.1 309.9,353.1 L348.1,353.1 Q351.0,353.1 351.0,356.0 L351.0,356.0 Z" fill="#eb6834"/>
+<text x="329.0" y="348.1" font-size="9.5" fill="#52514e" text-anchor="middle">52K</text>
+<path d="M353.0,356.0 L353.0,349.5 Q353.0,345.5 357.0,345.5 L393.0,345.5 Q397.0,345.5 397.0,349.5 L397.0,356.0 Z" fill="#1baf7a"/>
+<text x="375.0" y="340.5" font-size="9.5" fill="#52514e" text-anchor="middle">189K</text>
+<text x="329.0" y="376" font-size="11.5" fill="#0b0b0b" text-anchor="middle">sorted</text>
+<path d="M431.0,356.0 L431.0,349.8 Q431.0,345.8 435.0,345.8 L471.0,345.8 Q475.0,345.8 475.0,349.8 L475.0,356.0 Z" fill="#2a78d6"/>
+<text x="453.0" y="340.8" font-size="9.5" fill="#52514e" text-anchor="middle">186K</text>
+<path d="M477.0,356.0 L477.0,356.0 Q477.0,353.2 479.8,353.2 L518.2,353.2 Q521.0,353.2 521.0,356.0 L521.0,356.0 Z" fill="#eb6834"/>
+<text x="499.0" y="348.2" font-size="9.5" fill="#52514e" text-anchor="middle">51K</text>
+<path d="M523.0,356.0 L523.0,350.3 Q523.0,346.3 527.0,346.3 L563.0,346.3 Q567.0,346.3 567.0,350.3 L567.0,356.0 Z" fill="#1baf7a"/>
+<text x="545.0" y="341.3" font-size="9.5" fill="#52514e" text-anchor="middle">176K</text>
+<text x="499.0" y="376" font-size="11.5" fill="#0b0b0b" text-anchor="middle">reverse</text>
+<path d="M601.0,356.0 L601.0,136.6 Q601.0,132.6 605.0,132.6 L641.0,132.6 Q645.0,132.6 645.0,136.6 L645.0,356.0 Z" fill="#2a78d6"/>
+<text x="623.0" y="127.6" font-size="9.5" fill="#52514e" text-anchor="middle">4.046M</text>
+<path d="M647.0,356.0 L647.0,355.0 Q647.0,351.0 651.0,351.0 L687.0,351.0 Q691.0,351.0 691.0,355.0 L691.0,356.0 Z" fill="#eb6834"/>
+<text x="669.0" y="346.0" font-size="9.5" fill="#52514e" text-anchor="middle">90K</text>
+<path d="M693.0,356.0 L693.0,350.9 Q693.0,346.9 697.0,346.9 L733.0,346.9 Q737.0,346.9 737.0,350.9 L737.0,356.0 Z" fill="#1baf7a"/>
+<text x="715.0" y="341.9" font-size="9.5" fill="#52514e" text-anchor="middle">165K</text>
+<text x="669.0" y="376" font-size="11.5" fill="#0b0b0b" text-anchor="middle">few_unique</text>
+</svg>
