@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420" viewBox="0 0 780 420" font-family="Helvetica,Arial,sans-serif">
+<rect width="780" height="420" fill="#fcfcfb"/>
+<text x="74" y="30" font-size="16" font-weight="600" fill="#0b0b0b">Input shape vs recursion depth</text>
+<text x="74" y="50" font-size="11.5" fill="#52514e">n = 8,000, best of repeated runs - log axis; heapSort is iterative so depth stays 1</text>
+<rect x="74.0" y="60" width="10" height="10" rx="2" fill="#2a78d6"/>
+<text x="89.0" y="69" font-size="11" fill="#52514e">quickSort</text>
+<rect x="155.6" y="60" width="10" height="10" rx="2" fill="#eb6834"/>
+<text x="170.6" y="69" font-size="11" fill="#52514e">mergeSort</text>
+<rect x="237.2" y="60" width="10" height="10" rx="2" fill="#1baf7a"/>
+<text x="252.2" y="69" font-size="11" fill="#52514e">heapSort</text>
+<line x1="74" y1="356.0" x2="754" y2="356.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="359.5" font-size="10" fill="#52514e" text-anchor="end">1.0</text>
+<line x1="74" y1="287.0" x2="754" y2="287.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="290.5" font-size="10" fill="#52514e" text-anchor="end">10.0</text>
+<line x1="74" y1="218.0" x2="754" y2="218.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="221.5" font-size="10" fill="#52514e" text-anchor="end">100</text>
+<line x1="74" y1="149.0" x2="754" y2="149.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="152.5" font-size="10" fill="#52514e" text-anchor="end">1,000</text>
+<line x1="74" y1="80.0" x2="754" y2="80.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="66" y="83.5" font-size="10" fill="#52514e" text-anchor="end">10K</text>
+<text x="12" y="68" font-size="10" fill="#52514e">max depth</text>
+<line x1="74" y1="356" x2="754" y2="356" stroke="#52514e" stroke-width="1"/>
+<circle cx="99.0" cy="262.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="99.0" y="252.0" font-size="9.5" fill="#52514e" text-anchor="middle">23.0</text>
+<circle cx="159.0" cy="276.9" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="159.0" y="266.9" font-size="9.5" fill="#52514e" text-anchor="middle">14.0</text>
+<circle cx="219.0" cy="356.0" r="5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="219.0" y="346.0" font-size="9.5" fill="#52514e" text-anchor="middle">1.0</text>
+<text x="159.0" y="376" font-size="11.5" fill="#0b0b0b" text-anchor="middle">random</text>
+<circle cx="269.0" cy="279.1" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="269.0" y="269.1" font-size="9.5" fill="#52514e" text-anchor="middle">13.0</text>
+<circle cx="329.0" cy="276.9" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="329.0" y="266.9" font-size="9.5" fill="#52514e" text-anchor="middle">14.0</text>
+<circle cx="389.0" cy="356.0" r="5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="389.0" y="346.0" font-size="9.5" fill="#52514e" text-anchor="middle">1.0</text>
+<text x="329.0" y="376" font-size="11.5" fill="#0b0b0b" text-anchor="middle">sorted</text>
+<circle cx="439.0" cy="254.1" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="439.0" y="244.1" font-size="9.5" fill="#52514e" text-anchor="middle">30.0</text>
+<circle cx="499.0" cy="276.9" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="499.0" y="266.9" font-size="9.5" fill="#52514e" text-anchor="middle">14.0</text>
+<circle cx="559.0" cy="356.0" r="5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="559.0" y="346.0" font-size="9.5" fill="#52514e" text-anchor="middle">1.0</text>
+<text x="499.0" y="376" font-size="11.5" fill="#0b0b0b" text-anchor="middle">reverse</text>
+<circle cx="609.0" cy="148.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="609.0" y="138.0" font-size="9.5" fill="#52514e" text-anchor="middle">1,033</text>
+<circle cx="669.0" cy="276.9" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="669.0" y="266.9" font-size="9.5" fill="#52514e" text-anchor="middle">14.0</text>
+<circle cx="729.0" cy="356.0" r="5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="729.0" y="346.0" font-size="9.5" fill="#52514e" text-anchor="middle">1.0</text>
+<text x="669.0" y="376" font-size="11.5" fill="#0b0b0b" text-anchor="middle">few_unique</text>
+</svg>

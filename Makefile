@@ -14,7 +14,7 @@ CFLAGS ?= -std=c17 -Wall -Wextra -O2
 # `-I`는 아래 패턴 규칙이 대상 파일의 폴더로 붙인다. 여기서 고정하지 않는다.
 DEBUGFLAGS ?= -std=c17 -Wall -Wextra -g -O0
 
-.PHONY: all run run-c run-py test test-c test-py debug clean
+.PHONY: all run run-c run-py test test-c test-py charts crosscheck debug clean
 
 all: test
 
@@ -33,6 +33,17 @@ test-c: tests/test_sort.out
 
 test-py:
 	@python3 -m unittest discover -s tests -v
+
+# 측정 결과를 CSV로 남기고, 그것으로 그래프(SVG)를 다시 그린다.
+# tools/plot.py는 표준 모듈만 쓴다 (컨테이너에 matplotlib이 없다).
+charts: src/main.out
+	@mkdir -p report
+	@./src/main.out --csv > report/results.csv
+	@python3 tools/plot.py
+
+# C 구현과 Python 구현의 비교·이동·깊이가 일치하는지 대조한다.
+crosscheck: src/main.out
+	@python3 tools/crosscheck.py
 
 debug: src/main.debug.out
 
